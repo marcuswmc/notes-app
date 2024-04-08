@@ -23,7 +23,7 @@ export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
                 {formatDistanceToNow(note.date, {locale: pt, addSuffix: true })}
                 </span>
 
-                <p className='text-sm leading-6 text-slate-400 '>
+                <p className='text-sm leading-6 text-slate-400'>
                 {note.content}
                 </p>
 
